@@ -4,15 +4,12 @@ package com.yygx.threadpoolexporttest.service.impl;
 import com.alibaba.excel.EasyExcel;
 import com.alibaba.excel.ExcelWriter;
 import com.alibaba.excel.write.metadata.WriteSheet;
-import com.yygx.threadpoolexporttest.config.ThreadPoolConfig;
 import com.yygx.threadpoolexporttest.entity.MajorItemExcel;
 import com.yygx.threadpoolexporttest.entity.VolunteerInfo;
-import com.yygx.threadpoolexporttest.excel.VolunteerInfoExcel;
 import com.yygx.threadpoolexporttest.mapper.ExcelMapper;
 import com.yygx.threadpoolexporttest.service.ExcelService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.poi.ss.formula.functions.T;
 import org.springframework.stereotype.Service;
 
 import java.io.ByteArrayOutputStream;
